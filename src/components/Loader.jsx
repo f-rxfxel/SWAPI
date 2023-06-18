@@ -1,7 +1,7 @@
 import React from 'react'
 import { MDBSpinner } from 'mdb-react-ui-kit';
 
-const Requests = () => {
+const Loader = () => {
   return (
     <MDBSpinner role='status'>
       <span className='visually-hidden'>Loading...</span>
@@ -9,4 +9,4 @@ const Requests = () => {
   )
 }
 
-export default Requests
+export default Loader
